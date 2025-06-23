@@ -1,0 +1,16 @@
+# TEST RESULTS
+
+## Sistemsko testiranje i testiranje prihvatljivosti (Black Box)
+
+Testirani izrazi:
+
+1. 2+2 ➝ 4 ✅
+2. 2+3*4 ➝ 14 ✅
+3. 10/0 ➝ ❌ - Nema validne poruke o grešci za dijeljenje nulom.
+4. 5++5 ➝ ❌ - Nevalidan izraz se prihvata bez greške.
+5. 8* ➝ ❌ - Nepotpun izraz ne izaziva grešku.
+6. 4+5/2 ➝ 6.5 ✅
+
+## Zaključak:
+Softver funkcioniše za osnovne aritmetičke izraze, ali ne obrađuje greške dovoljno dobro.
+Preporuka: Dodati validaciju ulaza i hvatanje izuzetaka za grešne izraze.
